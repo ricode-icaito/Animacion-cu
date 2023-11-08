@@ -1,0 +1,176 @@
+body{
+  background-color: gray;
+}
+
+header {
+	margin: 30px;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid;
+	transform: scale(1, -1); 
+}
+
+#titulo {
+	font: bold 26px Verdana, sans-serif;
+}
+
+
+/*header {
+	margin: 30px;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid;
+	transform: rotate(10deg); 
+}
+
+#titulo {
+	font: bold 26px Verdana, sans-serif;
+}*/
+
+
+/*header {
+	margin: 30px;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid;
+	transform: skew(50deg); 
+}
+
+#titulo {
+	font: bold 26px Verdana, sans-serif;
+}*/
+
+
+/*header {
+	margin: 30px;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid;
+	transform: translate(100px);  
+}
+  
+#titulo {
+	font: bold 26px Verdana, sans-serif;
+}*/
+
+
+/*header {
+	margin: 30px;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid;
+	transform: translateY(100px) rotate(45deg) scaleX(0.3);  
+}
+
+#titulo {
+	font: bold 26px Verdana, sans-serif;
+}*/
+
+
+/*header {
+	margin: 30px;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid;
+	transform: perspective(500px) rotate3d(0, 1, 0, 45deg);  
+}
+
+#titulo {
+	font: bold 26px Verdana, sans-serif;
+}*/
+
+
+body {
+	perspective: 500px;
+	perspective-origin: 50% 90%;
+}
+
+/*header {
+	margin: 30px;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid;
+	transform: rotate3d(0, 1, 0, 135deg);  
+}
+
+#titulo {
+	font: bold 26px Verdana, sans-serif;
+}*/
+
+
+/*header {
+	margin: 30px;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid;  
+}
+
+header:hover {
+	transform: rotate(5deg);
+}
+
+#titulo {
+	font: bold 26px Verdana, sans-serif;
+}*/
+
+
+/*header {
+	margin: 30px;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid;  
+	transition: transform 1s ease-in-out 0s;
+}
+
+header:hover {
+	transform: rotate(5deg);
+}
+
+#titulo {
+	font: bold 26px Verdana, sans-serif;
+}
+
+#box2 {
+  position: absolute;
+  left: 120px;
+  background: blue;
+  transition: 1s ease-in-out;
+}
+
+#box1:hover + #box2 {
+  transform: rotate(360deg);
+  left: calc(100% - 102px);
+  background: yellow;
+}*/
+
+/*propiedades de animaciĂłn*/
+
+@keyframes mianim { 
+  from { left: 50px; background-color:red } /*inicio*/
+	to { left: 600px; background-color:blue } /*final*/
+}
+
+@-webkit-keyframes mianim { 
+  from { left: 50px; background-color:red } 
+	to { left: 600px; background-color:blue }
+}
+
+/*posicionamiento, anchura, altura y  borde elemento.*/
+#anim { 
+  position: relative ; 
+  width: 100px; height: 100px; 
+  border: 1px solid black; 
+}
+/*propiedades de animaci&oacute;n*/
+
+#anim { 
+  animation-name: mianim; /*referencia nombre*/
+  animation-duration: 5s; /*tiempo*/
+  animation-iteration-count: infinite; /*repeticiones*/
+	animation-direction: alternate; /*repetir al inverso*/
+				
+	-webkit-animation-name: mianim; /*referencia nombre*/
+  -webkit-animation-duration: 5s; /*tiempo*/
+  -webkit-animation-iteration-count: infinite; /*repeticiones*/
+	-webkit-animation-direction: alternate; /*repetir al inverso*/
+}
