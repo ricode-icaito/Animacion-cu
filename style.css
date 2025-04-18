@@ -1,4 +1,4 @@
-body{
+body {
   background-color: gray;
 }
 
@@ -167,10 +167,10 @@ header:hover {
   animation-name: mianim; /*referencia nombre*/
   animation-duration: 5s; /*tiempo*/
   animation-iteration-count: infinite; /*repeticiones*/
-	animation-direction: alternate; /*repetir al inverso*/
+  animation-direction: alternate; /*repetir al inverso*/
 				
-	-webkit-animation-name: mianim; /*referencia nombre*/
+  -webkit-animation-name: mianim; /*referencia nombre*/
   -webkit-animation-duration: 5s; /*tiempo*/
   -webkit-animation-iteration-count: infinite; /*repeticiones*/
-	-webkit-animation-direction: alternate; /*repetir al inverso*/
+  -webkit-animation-direction: alternate; /*repetir al inverso*/
 }
